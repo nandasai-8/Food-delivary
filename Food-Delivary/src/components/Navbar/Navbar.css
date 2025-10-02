@@ -52,13 +52,13 @@
 }
 
 .navbar-search-icon .dot {
-    position: absolute;
-    max-width: 10px;
-    min-height: 10px;
     background-color: tomato;
-    border-radius: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
     top: -8px;
-    right: -8px;
+    left: 15px;
 }
 
 @media (max-width:1050px) {

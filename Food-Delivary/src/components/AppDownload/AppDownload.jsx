@@ -3,7 +3,7 @@ import './AppDownload.css'
 import { assets } from '../../assets'
 const AppDownload = () => {
     return (
-        <div className='app-download'>
+        <div className='app-download' id='app-download'>
             <p>For Better Experience Download <br /> Tomoto Appr</p>
             <div className="app-download-platforms">
                 <img src={assets.play_store} alt="" />
